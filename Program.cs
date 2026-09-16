@@ -53,7 +53,9 @@ if (Temperatura > 30)
 
 /* NIVEL 2 😎😎*/
 
-/* Ejercicio 5:*/ 
+/* Ejercicio 5:*/
+
+using System.Runtime.CompilerServices;
 
 int numero = 0;
 Console.WriteLine("Introduzca un número: ");
@@ -93,3 +95,19 @@ else
 }
 
 /* Ejercicio 7: */
+
+String ContraseñaCorrecta = "1234";
+Console.WriteLine("Introduzca contraseña");
+String ContraseñaUsuario = Console.ReadLine()!;
+if(ContraseñaCorrecta == ContraseñaUsuario)
+{
+    Console.WriteLine ("Contraseña correcta");
+}
+else if (ContraseñaCorrecta != ContraseñaUsuario)
+{
+   Console.WriteLine ("Contraseña Incorrecta"); 
+}
+else
+{
+    Console.WriteLine ("Introduzca una contraseña");
+}
