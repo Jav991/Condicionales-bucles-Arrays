@@ -123,6 +123,7 @@ else
 
 /* Ejercicio 8 */
 
+/*
 using System.Runtime.InteropServices.Marshalling;
 
 double nota  = 0.0;
@@ -150,9 +151,10 @@ else if(nota >= 9 || nota < 10)
 {
     Console.WriteLine("Sobresaliente 😁");
 }
-
+*/
 /*Ejercicio 10*/
 
+/*
 Double Precio = 0.0; 
 Console.WriteLine ("Dame precio: ");
 Precio = double.Parse(Console.ReadLine()!);
@@ -171,7 +173,7 @@ else if (Precio >= 100)
    Console.WriteLine ($"precio: {Precio}€, precio con descuento: {descuento}€");
 
 }
-
+*/
 /*Nivel 4 Ejercicio 11*/
 
 int Dia = 0;
@@ -202,5 +204,38 @@ switch (Dia)
         Console.WriteLine("Domingo");
         break;
     default: 
+        break;
+}
+
+/* Ejercicio 12*/
+
+int opcion = 0;
+Console.WriteLine("=== MENÚ PRINCIPAL === \n1. Crear\n2. Consultar\n3 Modificar\n4 Eliminar\n5");
+Console.WriteLine("===================================");
+Console.WriteLine(" 1. Crear");
+Console.WriteLine(" 2. Consultar");
+Console.WriteLine(" 3. Modificar");
+Console.WriteLine(" 4. Eliminar");
+Console.WriteLine("===================================");
+
+Console.WriteLine("Seleccione una opción porfavor: ");
+opcion = int.Parse(Console.ReadLine()!);
+
+switch (opcion)
+{
+    case 1:
+        Console.WriteLine("Opción de 'Crear' Seleccionada 😉");
+        break;
+    case 2:
+        Console.WriteLine("Opción de 'Consulatar' seleccionada 😉");
+        break;
+    case 3:
+        Console.WriteLine("Opción de 'Modificar' Seleccionada 😉");
+        break;
+    case 4:
+        Console.WriteLine("Opción de 'Eliminar' Seleccionada 😉");
+        break;
+    default:
+        Console.WriteLine("Opción no valida");
         break;
 }
