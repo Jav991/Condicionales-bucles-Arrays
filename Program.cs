@@ -171,3 +171,36 @@ else if (Precio >= 100)
    Console.WriteLine ($"precio: {Precio}€, precio con descuento: {descuento}€");
 
 }
+
+/*Nivel 4 Ejercicio 11*/
+
+int Dia = 0;
+Console.WriteLine ("Introduce un numero del 1-7");
+Dia = int.Parse(Console.ReadLine()!);
+
+switch (Dia)
+{
+    case 1:
+        Console.WriteLine("Lunes");
+        break;
+     case 2:
+        Console.WriteLine("Martes");
+        break;
+     case 3:
+        Console.WriteLine("Miercoles");
+        break;
+    case 4:
+        Console.WriteLine("Jueves");
+        break;
+    case 5:
+        Console.WriteLine("Viernes");
+        break;
+    case 6:
+        Console.WriteLine("Sabado");
+        break;
+    case 7:
+        Console.WriteLine("Domingo");
+        break;
+    default: 
+        break;
+}

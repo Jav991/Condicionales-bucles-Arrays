@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Condicionales-bucles-Arrays")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ec65be65dc9daf823617bc09ad83970194f3146e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+db155fc22b277ea1cd1fa8d3d5ba1b306dd99068")]
 [assembly: System.Reflection.AssemblyProductAttribute("Condicionales-bucles-Arrays")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Condicionales-bucles-Arrays")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
