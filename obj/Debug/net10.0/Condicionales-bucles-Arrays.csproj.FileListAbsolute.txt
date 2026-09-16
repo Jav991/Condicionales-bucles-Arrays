@@ -1,0 +1,15 @@
+C:\Users\Alumno14\OneDrive - Coperm├ítica Centro de Formaci├│n\Escritorio\Condicionales-bucles-Arrays\bin\Debug\net10.0\Condicionales-bucles-Arrays.exe
+C:\Users\Alumno14\OneDrive - Coperm├ítica Centro de Formaci├│n\Escritorio\Condicionales-bucles-Arrays\bin\Debug\net10.0\Condicionales-bucles-Arrays.deps.json
+C:\Users\Alumno14\OneDrive - Coperm├ítica Centro de Formaci├│n\Escritorio\Condicionales-bucles-Arrays\bin\Debug\net10.0\Condicionales-bucles-Arrays.runtimeconfig.json
+C:\Users\Alumno14\OneDrive - Coperm├ítica Centro de Formaci├│n\Escritorio\Condicionales-bucles-Arrays\bin\Debug\net10.0\Condicionales-bucles-Arrays.dll
+C:\Users\Alumno14\OneDrive - Coperm├ítica Centro de Formaci├│n\Escritorio\Condicionales-bucles-Arrays\bin\Debug\net10.0\Condicionales-bucles-Arrays.pdb
+C:\Users\Alumno14\OneDrive - Coperm├ítica Centro de Formaci├│n\Escritorio\Condicionales-bucles-Arrays\obj\Debug\net10.0\Condicionales-bucles-Arrays.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alumno14\OneDrive - Coperm├ítica Centro de Formaci├│n\Escritorio\Condicionales-bucles-Arrays\obj\Debug\net10.0\Condicionales-bucles-Arrays.AssemblyInfoInputs.cache
+C:\Users\Alumno14\OneDrive - Coperm├ítica Centro de Formaci├│n\Escritorio\Condicionales-bucles-Arrays\obj\Debug\net10.0\Condicionales-bucles-Arrays.AssemblyInfo.cs
+C:\Users\Alumno14\OneDrive - Coperm├ítica Centro de Formaci├│n\Escritorio\Condicionales-bucles-Arrays\obj\Debug\net10.0\Condicionales-bucles-Arrays.csproj.CoreCompileInputs.cache
+C:\Users\Alumno14\OneDrive - Coperm├ítica Centro de Formaci├│n\Escritorio\Condicionales-bucles-Arrays\obj\Debug\net10.0\Condicionales-bucles-Arrays.sourcelink.json
+C:\Users\Alumno14\OneDrive - Coperm├ítica Centro de Formaci├│n\Escritorio\Condicionales-bucles-Arrays\obj\Debug\net10.0\Condicionales-bucles-Arrays.dll
+C:\Users\Alumno14\OneDrive - Coperm├ítica Centro de Formaci├│n\Escritorio\Condicionales-bucles-Arrays\obj\Debug\net10.0\refint\Condicionales-bucles-Arrays.dll
+C:\Users\Alumno14\OneDrive - Coperm├ítica Centro de Formaci├│n\Escritorio\Condicionales-bucles-Arrays\obj\Debug\net10.0\Condicionales-bucles-Arrays.pdb
+C:\Users\Alumno14\OneDrive - Coperm├ítica Centro de Formaci├│n\Escritorio\Condicionales-bucles-Arrays\obj\Debug\net10.0\Condicionales-bucles-Arrays.genruntimeconfig.cache
+C:\Users\Alumno14\OneDrive - Coperm├ítica Centro de Formaci├│n\Escritorio\Condicionales-bucles-Arrays\obj\Debug\net10.0\ref\Condicionales-bucles-Arrays.dll

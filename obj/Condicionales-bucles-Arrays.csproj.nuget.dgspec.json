@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Reserva4\\Desktop\\Proyectos C#\\Condicionales-bucles-Arrays\\Condicionales-bucles-Arrays.csproj": {}
+    "C:\\Users\\Alumno14\\OneDrive - Coperm├ítica Centro de Formaci├│n\\Escritorio\\Condicionales-bucles-Arrays\\Condicionales-bucles-Arrays.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Reserva4\\Desktop\\Proyectos C#\\Condicionales-bucles-Arrays\\Condicionales-bucles-Arrays.csproj": {
+    "C:\\Users\\Alumno14\\OneDrive - Coperm├ítica Centro de Formaci├│n\\Escritorio\\Condicionales-bucles-Arrays\\Condicionales-bucles-Arrays.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Reserva4\\Desktop\\Proyectos C#\\Condicionales-bucles-Arrays\\Condicionales-bucles-Arrays.csproj",
+        "projectUniqueName": "C:\\Users\\Alumno14\\OneDrive - Coperm├ítica Centro de Formaci├│n\\Escritorio\\Condicionales-bucles-Arrays\\Condicionales-bucles-Arrays.csproj",
         "projectName": "Condicionales-bucles-Arrays",
-        "projectPath": "C:\\Users\\Reserva4\\Desktop\\Proyectos C#\\Condicionales-bucles-Arrays\\Condicionales-bucles-Arrays.csproj",
-        "packagesPath": "C:\\Users\\Reserva4\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Reserva4\\Desktop\\Proyectos C#\\Condicionales-bucles-Arrays\\obj\\",
+        "projectPath": "C:\\Users\\Alumno14\\OneDrive - Coperm├ítica Centro de Formaci├│n\\Escritorio\\Condicionales-bucles-Arrays\\Condicionales-bucles-Arrays.csproj",
+        "packagesPath": "C:\\Users\\Alumno14\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Alumno14\\OneDrive - Coperm├ítica Centro de Formaci├│n\\Escritorio\\Condicionales-bucles-Arrays\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Reserva4\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Alumno14\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
