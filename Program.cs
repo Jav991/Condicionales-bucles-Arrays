@@ -55,7 +55,10 @@ if (Temperatura > 30)
 
 /* Ejercicio 5:*/
 
+/*
+using System.Diagnostics.CodeAnalysis;
 using System.Runtime.CompilerServices;
+using System.Runtime.Serialization;
 
 int numero = 0;
 Console.WriteLine("Introduzca un número: ");
@@ -75,8 +78,10 @@ else
     Console.WriteLine("Es impar");
 }
 
+*/
 /* Ejercicio 6 */
 
+/*
 int n = 0;
 Console.WriteLine("Introduzca un número: ");
 n = int.Parse(Console.ReadLine()!);
@@ -93,9 +98,10 @@ else
 {
     Console.WriteLine("Es 0");
 }
+*/
 
 /* Ejercicio 7: */
-
+/*
 String ContraseñaCorrecta = "1234";
 Console.WriteLine("Introduzca contraseña");
 String ContraseñaUsuario = Console.ReadLine()!;
@@ -110,4 +116,35 @@ else if (ContraseñaCorrecta != ContraseñaUsuario)
 else
 {
     Console.WriteLine ("Introduzca una contraseña");
+}
+*/
+
+/* Nivel 3 😎😎*/
+
+/* Ejercicio 8 */
+
+double nota  = 0.0;
+Console.WriteLine("Introduzca su nota por favor: ");
+nota = int.Parse(Console.ReadLine()!);
+
+if(nota < 0)
+{
+    Console.WriteLine("No puede ser negativa la nota 😉");
+}
+
+else if(nota < 5)
+{
+    Console.WriteLine("Supenso 😂");
+}
+else if(nota == 5 || nota == 6)
+{
+    Console.WriteLine("Aprobado 💪");
+}
+else if(nota == 7 || nota == 8)
+{
+    Console.WriteLine("Notable 🤔");
+}
+else if(nota >= 9 || nota < 10)
+{
+    Console.WriteLine("Sobresaliente 😁");
 }
