@@ -210,7 +210,7 @@ switch (Dia)
 /* Ejercicio 12*/
 
 int opcion = 0;
-Console.WriteLine("=== MENÚ PRINCIPAL === \n1. Crear\n2. Consultar\n3 Modificar\n4 Eliminar\n5");
+Console.WriteLine("=== MENÚ PRINCIPAL === \n1. Crear\n2. Consultar\n3 Modificar\n4 Eliminar\n");
 Console.WriteLine("===================================");
 Console.WriteLine(" 1. Crear");
 Console.WriteLine(" 2. Consultar");
@@ -227,7 +227,7 @@ switch (opcion)
         Console.WriteLine("Opción de 'Crear' Seleccionada 😉");
         break;
     case 2:
-        Console.WriteLine("Opción de 'Consulatar' seleccionada 😉");
+        Console.WriteLine("Opción de 'Consultar' seleccionada 😉");
         break;
     case 3:
         Console.WriteLine("Opción de 'Modificar' Seleccionada 😉");
