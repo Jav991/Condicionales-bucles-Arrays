@@ -123,6 +123,8 @@ else
 
 /* Ejercicio 8 */
 
+using System.Runtime.InteropServices.Marshalling;
+
 double nota  = 0.0;
 Console.WriteLine("Introduzca su nota por favor: ");
 nota = int.Parse(Console.ReadLine()!);
@@ -147,4 +149,25 @@ else if(nota == 7 || nota == 8)
 else if(nota >= 9 || nota < 10)
 {
     Console.WriteLine("Sobresaliente 😁");
+}
+
+/*Ejercicio 10*/
+
+Double Precio = 0.0; 
+Console.WriteLine ("Dame precio: ");
+Precio = double.Parse(Console.ReadLine()!);
+if (Precio < 50)
+{
+    Console.WriteLine("Sin descuento 🤑");
+} 
+else if (Precio >= 50 && Precio <= 100)
+{
+    double descuento = Precio * 0.05;
+    Console.WriteLine ($"precio: {Precio}, precio con descuento: {descuento}");
+}
+else if (Precio >= 100)
+{
+   double descuento = Precio * 0.10;
+   Console.WriteLine ($"precio: {Precio}, precio con descuento: {descuento}");
+
 }
