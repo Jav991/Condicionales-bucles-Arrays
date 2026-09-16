@@ -160,14 +160,14 @@ if (Precio < 50)
 {
     Console.WriteLine("Sin descuento 🤑");
 } 
-else if (Precio >= 50 && Precio <= 100)
+else if (Precio >= 50 && Precio < 100)
 {
-    double descuento = Precio * 0.05;
-    Console.WriteLine ($"precio: {Precio}, precio con descuento: {descuento}");
+    double descuento = Precio - (Precio * 0.05);
+    Console.WriteLine ($"precio: {Precio}€, precio con descuento: {descuento}€");
 }
 else if (Precio >= 100)
 {
-   double descuento = Precio * 0.10;
-   Console.WriteLine ($"precio: {Precio}, precio con descuento: {descuento}");
+   double descuento = Precio - (Precio * 0.10);
+   Console.WriteLine ($"precio: {Precio}€, precio con descuento: {descuento}€");
 
 }
