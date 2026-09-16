@@ -175,7 +175,7 @@ else if (Precio >= 100)
 }
 */
 /*Nivel 4 Ejercicio 11*/
-
+/*
 int Dia = 0;
 Console.WriteLine ("Introduce un numero del 1-7");
 Dia = int.Parse(Console.ReadLine()!);
@@ -207,8 +207,9 @@ switch (Dia)
         break;
 }
 
+*/
 /* Ejercicio 12*/
-
+/*
 int opcion = 0;
 Console.WriteLine("=== MENÚ PRINCIPAL === \n1. Crear\n2. Consultar\n3 Modificar\n4 Eliminar\n");
 Console.WriteLine("===================================");
@@ -239,7 +240,7 @@ switch (opcion)
         Console.WriteLine("Opción no valida");
         break;
 }
-
+*/
 /*Ejercicio 13*/ 
 
 int N1 = 0, N2 = 0 , operacion = 0;
@@ -281,5 +282,55 @@ switch (operacion)
     default:
         Console.WriteLine("Opción no valida");
         break;
+}
 
+/* Ejercicio 15: */
+
+int mes = 0;
+Console.WriteLine("Introduzca un número del 1-12: ");
+mes = int.Parse(Console.ReadLine()!);
+
+switch (mes)
+{
+    case 1: 
+        Console.Write($"{mes}: Enero");
+        break;
+    case 2:
+        Console.WriteLine($"{mes}: Febrero");
+        break;
+    case 3:
+        Console.WriteLine($"{mes}: Marzo");
+        break;
+    case 4:
+        Console.WriteLine($"{mes}: Abril");
+        break;
+    case 5:
+        Console.WriteLine($"{mes}: Mayo");
+        break;
+
+    case 6:
+        Console.WriteLine($"{mes}: Junio");
+        break;
+
+    case 7:
+        Console.WriteLine($"{mes}: Julio");
+        break;
+    case 8:
+        Console.WriteLine($"{mes}: Agosto");
+        break;
+    case 9:
+        Console.WriteLine($"{mes}: Septiembre");
+        break;
+    case 10:
+        Console.WriteLine($"{mes}: Octubre");
+        break;
+    case 11:
+        Console.WriteLine($"{mes}: Noviembre");
+        break;
+    case 12:
+        Console.WriteLine($"{mes}: Diciembre");
+        break;
+    default:
+        Console.WriteLine("Número no válido. Tiene que ser entre el 1 y el 12");
+        break;
 }
