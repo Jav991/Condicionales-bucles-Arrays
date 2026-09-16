@@ -176,8 +176,6 @@ else if (Precio >= 100)
 */
 /*Nivel 4 Ejercicio 11*/
 
-using System.Diagnostics;
-
 int Dia = 0;
 Console.WriteLine ("Introduce un numero del 1-7");
 Dia = int.Parse(Console.ReadLine()!);
@@ -241,48 +239,3 @@ switch (opcion)
         Console.WriteLine("Opción no valida");
         break;
 }
-
-/*Ejercicio 13*/ 
-
-int N1 = 0, N2 = 0 , operacion = 0;
-double suma = 0.0, resta = 0.0, multiplicacion = 0.0, division = 0.0;
-Console.WriteLine ("Introduzca primer numero");
-N1= int.Parse(Console.ReadLine()!);
-
-Console.WriteLine ("Introduzca segundo numero");
-N2= int.Parse(Console.ReadLine()!);
-Console.WriteLine("=== MENÚ PRINCIPAL === \n1. Sumar\n2. Restar\n3 Multiplicar\n4 Dividir\n");
-Console.WriteLine("===================================");
-Console.WriteLine(" 1. Sumar");
-Console.WriteLine(" 2. Restar");
-Console.WriteLine(" 3. Multiplicar");
-Console.WriteLine(" 4. Dividir");
-Console.WriteLine("===================================");
-
-Console.WriteLine("Seleccione una opción porfavor: ");
-operacion  = int.Parse (Console.ReadLine()!);
- 
-switch (operacion)
-{
-    case 1:
-        suma = N1 + N2;
-        Console.WriteLine($"Suma de n1 + n2: {suma}");
-        break;
-    case 2:
-         resta = N1 - N2;
-        Console.WriteLine($"resta de n1 - n2: {resta}");
-        break;
-    case 3:
-        multiplicacion = N1 * N2;
-        Console.WriteLine($"multiplicaion de n1 * n2: {multiplicacion}");
-        break;
-    case 4:
-        division = N1 / N2;
-        Console.WriteLine($"division de n1 / n2: {division}");
-        break;
-    default:
-        Console.WriteLine("Opción no valida");
-        break;
-
-}
-
