@@ -580,7 +580,7 @@ foreach (int num in n)
 }
  Console.WriteLine($"El número mayor es: {numMayor}");
 */
- /*Ejercicio 35*/
+ /*Ejercicio 35
 
 int[] notas = {3, 7, 9 ,10};
 int suma = 0, media = 0;
@@ -588,6 +588,29 @@ foreach (int nota in notas)
 {
     suma += nota;
     /* suma = suma + nota*/
-}
+/*}
 media = suma/notas.Length;
 Console.WriteLine($"Suma total: {suma}\n Media de Notas: {media}");
+*/
+
+/* Nivel 11 */ 
+/* Ejercicio 36*/
+
+double[] calificaciones = {3, 4, 9 ,10};
+double numAprobados = 0;
+double numSuspensos = 0;
+foreach (double c in calificaciones)
+{
+    if(c >= 5)
+    {
+        numAprobados ++;
+    }
+    else
+    {
+        numSuspensos ++;
+    }
+}
+Console.WriteLine($"Numero de aprobados: {numAprobados}");
+Console.WriteLine($"Numero de Suspensos: {numSuspensos}");
+
+/* Ejercicio 37*/
