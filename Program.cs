@@ -534,9 +534,16 @@ do
 
 /* Ejercicio 31 */
 
-int[] nombres = {1, 2, 3, 4, 5};
+/*int[] nombres = {1, 2, 3, 4, 5};
 
 for(int i = 0; i < nombres.Length; i++)
 {
     Console.WriteLine($"Numero: {nombres[i]}");
+}*/
+/*Ejercicio 32 */
+
+string[] nombres = {"Ana","Luis","Carlos","Marta"};
+foreach (string nombre in nombres)
+{
+    Console.WriteLine($"Nombre: {nombre}");
 }
