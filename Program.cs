@@ -549,6 +549,7 @@ foreach (string nombre in nombres)
 }
 */
 /* Ejercicio 33*/
+/*
 
 int[] numeros = {10, 20, 30, 40, 50};
 
@@ -564,3 +565,17 @@ foreach (int numero in numeros)
 {
     Console.WriteLine($"Numero {i}: {numeros[i]}");
 }*/
+
+/* Ejercicio 34*/
+
+int[] n = {10, 20, 30, 40, 50};
+int numMayor = 0;
+
+foreach (int num in n)
+{
+    if(num > numMayor)
+    {
+        numMayor = num;
+    }
+}
+ Console.WriteLine($"El número mayor es: {numMayor}");
