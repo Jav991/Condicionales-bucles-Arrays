@@ -384,3 +384,23 @@ else
 {
     Console.WriteLine("No es un entero");
 }
+
+/* Ejercicio 18*/
+
+object numero = -2;
+
+if(numero is int numeroValido)
+{
+    if (numeroValido > 18)
+    {
+        Console.WriteLine($"El numero válido: {numeroValido}, es mayor a 18");
+    }
+    else
+    {
+        Console.WriteLine($"El número valido: {numeroValido}, es menor a 18");
+    }
+}
+else
+{
+   Console.WriteLine($"El número {numero} introducido no es válido. Sorry mi 👑");
+}
