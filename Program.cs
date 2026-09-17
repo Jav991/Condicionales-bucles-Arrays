@@ -443,7 +443,7 @@ Console.WriteLine($"El dato 3 es de tipo: {mensaje3}");
 
 /*Nivel 7 Ejercicio 20*/
 
-for (int i = 0; i< 11; i++)
+for (int i = 20; i>=0; i--)
 {
     Console.WriteLine($"{i}");
 
