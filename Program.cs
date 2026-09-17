@@ -445,6 +445,14 @@ Console.WriteLine($"El dato 3 es de tipo: {mensaje3}");
 
 for (int i = 20; i>=0; i--)
 {
-    Console.WriteLine($"{i}");
-
+    Console.WriteLine($"{i}\n");
 }
+
+/*Ejercicio 21*/
+for (int i = 2; i < 22; i +=2)
+{
+    Console.WriteLine($"Numero: {i}");
+}
+
+
+/* Ejercicio 21*/
