@@ -451,7 +451,7 @@ for (int i = 20; i>=0; i--)
 /*Ejercicio 21*/
 for (int i = 2; i < 22; i +=2)
 {
-    Console.WriteLine($"Numero: {i}");
+    Console.WriteLine($"Numero: {i}\n");
 }
 
 
@@ -463,5 +463,13 @@ numero = int.Parse(Console.ReadLine()!);
 
 for (int i = 0; i < 10; i++)
 {
-    Console.WriteLine($"{numero} x {i} = {numero * i}");  
+    Console.WriteLine($"{numero} x {i} = {numero * i}\n");  
 }
+
+/* Ejercicio 24*/
+int suma = 0;
+for (int i = 1; i < 100; i++){
+     suma += i;
+    Console.WriteLine($"El resultado final es: {suma}");
+}
+
