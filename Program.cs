@@ -595,7 +595,7 @@ Console.WriteLine($"Suma total: {suma}\n Media de Notas: {media}");
 
 /* Nivel 11 */ 
 /* Ejercicio 36*/
-
+/*
 double[] calificaciones = {3, 4, 9 ,10};
 double numAprobados = 0;
 double numSuspensos = 0;
@@ -612,5 +612,33 @@ foreach (double c in calificaciones)
 }
 Console.WriteLine($"Numero de aprobados: {numAprobados}");
 Console.WriteLine($"Numero de Suspensos: {numSuspensos}");
-
+*/
 /* Ejercicio 37*/
+/*
+
+int[] Notas = {4, 7, 8, 3, 5, 9};
+int aprobados = 0;
+
+foreach (int n in Notas)
+{
+    if(n >= 5)
+    {
+        aprobados ++; 
+    }
+}
+Console.WriteLine($"Número de alumnos aprobados: {aprobados}");
+*/
+
+/* Ejercicio 38*/
+
+int[] numeros = {4, 7, 8, 3, 5, 9};
+int numPar = 0;
+
+foreach (int n in numeros)
+{
+    if(n % 2 == 0)
+    {
+       Console.WriteLine($"Numeros pares: {numPar}");
+    }
+}
+
