@@ -500,6 +500,7 @@ do
 Console.WriteLine("Contraseña correcta mi 👑");
 */
 /*Ejercicio 30*/
+/*
 int opcion = 0;
 
 do
@@ -513,19 +514,29 @@ do
 
     Console.WriteLine("Seleccione una opción porfavor: ");
     opcion = int.Parse(Console.ReadLine()!); 
-    
-    if(opcion == 1)
-    {
-        Console.WriteLine("Hola Usuario");
-    }
-    else if( opcion == 2)
-    {
-        Console.WriteLine($"Mostrar Fecha: {DateTime.Now.ToShortDateString}");
-    }
-    else
-    {
-        Console.WriteLine("Adios");
+    switch (opcion)
+    {   
+        case 1:
+            Console.WriteLine("Hola Usuario");
+            break;
+        case 2:
+            Console.WriteLine($"Mostar fecha: {DateTime.Now.ToShortDateString()}");
+            break;
+        case 3:
+            Console.WriteLine("Adios");
+            break;
+        default:
+            break;
     }
 } while (opcion != 3);
+*/
+/* Nivel 10 */
 
-    
+/* Ejercicio 31 */
+
+int[] nombres = {1, 2, 3, 4, 5};
+
+for(int i = 0; i < nombres.Length; i++)
+{
+    Console.WriteLine($"Numero: {nombres[i]}");
+}
