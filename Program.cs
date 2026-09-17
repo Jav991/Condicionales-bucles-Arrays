@@ -372,3 +372,15 @@ string elecccion = e1 switch
 };
 
 Console.WriteLine($"{e1} {elecccion}");
+
+/*Ejercicio 17*/
+
+object dato = 25;
+if (dato is int numeroEntero)
+{
+    Console.WriteLine ($"Es un numero entero{numeroEntero}");
+}
+else
+{
+    Console.WriteLine("No es un entero");
+}
