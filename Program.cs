@@ -341,6 +341,7 @@ switch (mes)
 /* Nivel 5* ☕☕/
 
 /* Ejercicio 16*/
+/*
 int opcion = 0;
 
 Console.WriteLine("Introduzca un número del 1-3");
@@ -372,8 +373,9 @@ string elecccion = e1 switch
 };
 
 Console.WriteLine($"{e1} {elecccion}");
-
+*/
 /*Ejercicio 17*/
+/*
 
 object dato = 25;
 if (dato is int numeroEntero)
@@ -384,10 +386,11 @@ else
 {
     Console.WriteLine("No es un entero");
 }
+*/
 
 /* Ejercicio 18*/
 
-object numero = -2;
+object numero = 23;
 
 if(numero is int numeroValido)
 {
@@ -404,3 +407,37 @@ else
 {
    Console.WriteLine($"El número {numero} introducido no es válido. Sorry mi 👑");
 }
+
+/* Ejercicio 19*/
+
+object dato1 = 25;
+object dato2 = "Hola";
+object dato3 = 8.5;
+
+string mensaje = dato1 switch
+{
+    int i => $"Es un numero entero: {i}",
+    string s => $"Es un string: {s}",
+    double d => $"Es un double: {d}",
+    _=> $"No es nada de lo anterior"
+};
+
+string mensaje2 = dato2 switch
+{
+    int i => $"Es un número entero: {i}",
+    string s => $"Es un string: {s}",
+    double d => $"Es un double: {d}",
+    _=> $"No es nada de lo anterior"  
+};
+string mensaje3 = dato3 switch
+{
+    int i => $"Es un número entero: {i}",
+    string s => $"Es un string: {s}",
+    double d => $"Es un double: {d}",
+    _=> $"No es nada de lo anterior"
+};
+Console.WriteLine($"El dato 1 es de tipo: {mensaje}");
+Console.WriteLine($"El dato 2 es de tipo: {mensaje2}");
+Console.WriteLine($"El dato 3 es de tipo: {mensaje3}");
+
+
