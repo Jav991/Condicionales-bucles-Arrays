@@ -483,7 +483,6 @@ while (n!=0)
 {
     Console.WriteLine("Introduzca un numero");
     n = int.Parse(Console.ReadLine()!);
-
 }
 
 /* Ejercicio 29 */
@@ -494,11 +493,8 @@ string contraseña = Console.ReadLine()!;
 
 do
 {
-    if (contraseña != contraseñaCorrecta)
-    {
-        Console.WriteLine("Introduzca la contraseña incorrecta, introdúzcala de nuevo porfavor:");
-        contraseña = Console.ReadLine()!;
-    }
+    Console.WriteLine("Introduzca la contraseña incorrecta, introdúzcala de nuevo porfavor:");
+    contraseña = Console.ReadLine()!;
 } while (contraseña != contraseñaCorrecta);
 
 Console.WriteLine("Contraseña correcta mi 👑");
