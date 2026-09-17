@@ -455,4 +455,13 @@ for (int i = 2; i < 22; i +=2)
 }
 
 
-/* Ejercicio 21*/
+/* Ejercicio 23*/
+
+int numero = 0;
+Console.WriteLine("Introduzca un numero: ");
+numero = int.Parse(Console.ReadLine()!);
+
+for (int i = 0; i < 10; i++)
+{
+    Console.WriteLine($"{numero} x {i} = {numero * i}");  
+}
