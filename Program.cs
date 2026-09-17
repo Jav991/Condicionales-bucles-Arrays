@@ -442,21 +442,22 @@ Console.WriteLine($"El dato 3 es de tipo: {mensaje3}");
 */
 
 /*Nivel 7 Ejercicio 20*/
-
+/*
 for (int i = 20; i>=0; i--)
 {
     Console.WriteLine($"{i}\n");
 }
-
-/*Ejercicio 21*/
+/*
+/*Ejercicio 21
 for (int i = 2; i < 22; i +=2)
 {
     Console.WriteLine($"Numero: {i}\n");
 }
-
+*/
+/*
 
 /* Ejercicio 23*/
-
+/*
 int numero = 0;
 Console.WriteLine("Introduzca un numero: ");
 numero = int.Parse(Console.ReadLine()!);
@@ -465,11 +466,27 @@ for (int i = 0; i < 10; i++)
 {
     Console.WriteLine($"{numero} x {i} = {numero * i}\n");  
 }
-
+*/
 /* Ejercicio 24*/
+/*
 int suma = 0;
 for (int i = 1; i < 100; i++){
      suma += i;
     Console.WriteLine($"El resultado final es: {suma}");
 }
+*/
 
+/*Nivel 8 Ejercicio 27*/
+
+int n = 0;
+while (true)
+{
+    Console.WriteLine("Introduzca un numero");
+    n = int.Parse(Console.ReadLine()!);
+
+    if(n == 0)
+    {
+        Console.WriteLine("Adios");
+        break;
+    }
+}
