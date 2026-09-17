@@ -477,16 +477,16 @@ for (int i = 1; i < 100; i++){
 */
 
 /*Nivel 8 Ejercicio 27*/
-
+/*
 int n = -10000;
 while (n!=0)
 {
     Console.WriteLine("Introduzca un numero");
     n = int.Parse(Console.ReadLine()!);
 }
-
+*/
 /* Ejercicio 29 */
-
+/*
 string contraseñaCorrecta = "abc123";
 Console.WriteLine("Introduzca la contraseña correcta");
 string contraseña = Console.ReadLine()!;
@@ -498,4 +498,34 @@ do
 } while (contraseña != contraseñaCorrecta);
 
 Console.WriteLine("Contraseña correcta mi 👑");
+*/
+/*Ejercicio 30*/
+int opcion = 0;
+
+do
+{
+   Console.WriteLine("=== MENÚ PRINCIPAL === \n1. Saludar\n2. Mostrar fecha\n3 Salir");
+    Console.WriteLine("===================================");
+    Console.WriteLine(" 1. Saludar");
+    Console.WriteLine(" 2. Mostrar fecha");
+    Console.WriteLine(" 3. Salir");
+    Console.WriteLine("===================================");
+
+    Console.WriteLine("Seleccione una opción porfavor: ");
+    opcion = int.Parse(Console.ReadLine()!); 
+    
+    if(opcion == 1)
+    {
+        Console.WriteLine("Hola Usuario");
+    }
+    else if( opcion == 2)
+    {
+        Console.WriteLine($"Mostrar Fecha: {DateTime.Now.ToShortDateString}");
+    }
+    else
+    {
+        Console.WriteLine("Adios");
+    }
+} while (opcion != 3);
+
     
