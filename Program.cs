@@ -354,3 +354,21 @@ string mensaje = opcion  switch
     _ => "Opción no válida"
 };
 Console.WriteLine($"{opcion}: {mensaje}");
+
+int e1 = 0;
+Console.WriteLine("Introduzca un número del 1-7");
+e1 = int.Parse(Console.ReadLine()!);
+
+string elecccion = e1 switch
+{
+    1 => "Lun",
+    2 => "Mar",
+    3 => "Mie",
+    4 => "Jue",
+    5 => "Vie",
+    6 => "Sab",
+    7 => "Dom",
+    _ => "Opcion no valida mi rey 👑"
+};
+
+Console.WriteLine($"{e1} {elecccion}");
