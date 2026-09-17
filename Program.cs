@@ -478,15 +478,28 @@ for (int i = 1; i < 100; i++){
 
 /*Nivel 8 Ejercicio 27*/
 
-int n = 0;
-while (true)
+int n = -10000;
+while (n!=0)
 {
     Console.WriteLine("Introduzca un numero");
     n = int.Parse(Console.ReadLine()!);
 
-    if(n == 0)
-    {
-        Console.WriteLine("Adios");
-        break;
-    }
 }
+
+/* Ejercicio 29 */
+
+string contraseñaCorrecta = "abc123";
+Console.WriteLine("Introduzca la contraseña correcta");
+string contraseña = Console.ReadLine()!;
+
+do
+{
+    if (contraseña != contraseñaCorrecta)
+    {
+        Console.WriteLine("Introduzca la contraseña incorrecta, introdúzcala de nuevo porfavor:");
+        contraseña = Console.ReadLine()!;
+    }
+} while (contraseña != contraseñaCorrecta);
+
+Console.WriteLine("Contraseña correcta mi 👑");
+    
