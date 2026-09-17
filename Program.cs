@@ -389,7 +389,7 @@ else
 */
 
 /* Ejercicio 18*/
-
+/*
 object numero = 23;
 
 if(numero is int numeroValido)
@@ -407,9 +407,9 @@ else
 {
    Console.WriteLine($"El número {numero} introducido no es válido. Sorry mi 👑");
 }
-
+*/
 /* Ejercicio 19*/
-
+/*
 object dato1 = 25;
 object dato2 = "Hola";
 object dato3 = 8.5;
@@ -439,5 +439,12 @@ string mensaje3 = dato3 switch
 Console.WriteLine($"El dato 1 es de tipo: {mensaje}");
 Console.WriteLine($"El dato 2 es de tipo: {mensaje2}");
 Console.WriteLine($"El dato 3 es de tipo: {mensaje3}");
+*/
 
+/*Nivel 7 Ejercicio 20*/
 
+for (int i = 0; i< 11; i++)
+{
+    Console.WriteLine($"{i}");
+
+}
