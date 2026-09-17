@@ -567,7 +567,7 @@ foreach (int numero in numeros)
 }*/
 
 /* Ejercicio 34*/
-
+/*
 int[] n = {10, 20, 30, 40, 50};
 int numMayor = 0;
 
@@ -579,3 +579,15 @@ foreach (int num in n)
     }
 }
  Console.WriteLine($"El número mayor es: {numMayor}");
+*/
+ /*Ejercicio 35*/
+
+int[] notas = {3, 7, 9 ,10};
+int suma = 0, media = 0;
+foreach (int nota in notas)
+{
+    suma += nota;
+    /* suma = suma + nota*/
+}
+media = suma/notas.Length;
+Console.WriteLine($"Suma total: {suma}\n Media de Notas: {media}");
