@@ -541,9 +541,26 @@ for(int i = 0; i < nombres.Length; i++)
     Console.WriteLine($"Numero: {nombres[i]}");
 }*/
 /*Ejercicio 32 */
-
+/*
 string[] nombres = {"Ana","Luis","Carlos","Marta"};
 foreach (string nombre in nombres)
 {
     Console.WriteLine($"Nombre: {nombre}");
 }
+*/
+/* Ejercicio 33*/
+
+int[] numeros = {10, 20, 30, 40, 50};
+
+numeros[1] = 100;
+numeros[3] = 200;
+
+foreach (int numero in numeros)
+{
+    Console.WriteLine($"Numero: {numero}");
+}
+
+/*for (int i = 0; i < numeros.Length; i++)
+{
+    Console.WriteLine($"Numero {i}: {numeros[i]}");
+}*/
