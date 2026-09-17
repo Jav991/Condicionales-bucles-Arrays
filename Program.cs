@@ -242,6 +242,7 @@ switch (opcion)
 }
 */
 /*Ejercicio 13*/ 
+/*
 
 int N1 = 0, N2 = 0 , operacion = 0;
 double suma = 0.0, resta = 0.0, multiplicacion = 0.0, division = 0.0;
@@ -283,8 +284,10 @@ switch (operacion)
         Console.WriteLine("Opción no valida");
         break;
 }
+*/
 
 /* Ejercicio 15: */
+/*
 
 int mes = 0;
 Console.WriteLine("Introduzca un número del 1-12: ");
@@ -334,3 +337,20 @@ switch (mes)
         Console.WriteLine("Número no válido. Tiene que ser entre el 1 y el 12");
         break;
 }
+*/
+/* Nivel 5* ☕☕/
+
+/* Ejercicio 16*/
+int opcion = 0;
+
+Console.WriteLine("Introduzca un número del 1-3");
+opcion = int.Parse(Console.ReadLine()!);
+
+string mensaje = opcion  switch
+{
+    1 => "Bajo",
+    2 => "Medio",
+    3 => "Alto",
+    _ => "Opción no válida"
+};
+Console.WriteLine($"{opcion}: {mensaje}");
