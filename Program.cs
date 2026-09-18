@@ -643,3 +643,4 @@ foreach (int n in numeros)
 }
 Console.WriteLine($"Numeros pares: {numPar}");
 
+int nivel = 0;
