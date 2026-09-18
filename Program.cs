@@ -638,7 +638,8 @@ foreach (int n in numeros)
 {
     if(n % 2 == 0)
     {
-       Console.WriteLine($"Numeros pares: {numPar}");
+        numPar ++;
     }
 }
+Console.WriteLine($"Numeros pares: {numPar}");
 
